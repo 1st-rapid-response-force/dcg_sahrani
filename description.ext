@@ -1,0 +1,204 @@
+class Params {
+        class dcg_ied_enable {
+        title = "DCG IED - Always disabled";
+        values[] = {0};
+        texts[] = {"Disabled"};
+        default = 0;
+        dcg_setting = 0;
+        typeName = "BOOL";
+    };
+};
+
+class dcg_settings {   
+    class dcg_main_blacklistLocations {
+        typeName = "ARRAY";
+        value[] = {
+        };
+    };
+    class dcg_main_unitPoolEast {
+        typeName = "POOL";
+        value[] = {
+          {"ALL","LOP_SLA_Infantry_MG_Asst","LOP_SLA_Infantry_MG","LOP_SLA_Infantry_GL","LOP_SLA_Infantry_AT_Asst","LOP_SLA_Infantry_AT","LOP_SLA_Infantry_Rifleman","LOP_SLA_Infantry_Corpsman","LOP_SLA_Infantry_SL","LOP_SLA_Infantry_TL"}
+        };
+    };
+    class dcg_main_vehPoolEast {
+        typeName = "POOL";
+        value[] = {
+            {"ALL","LOP_SLA_Ural","LOP_SLA_Ural_open","LOP_SLA_UAZ_SPG","LOP_SLA_UAZ_Open","LOP_SLA_UAZ_DshKM","LOP_SLA_UAZ_AGS","LOP_SLA_UAZ"}
+        };
+    };
+    class dcg_main_airPoolEast {
+        typeName = "POOL";
+        value[] = {
+            {"ALL","LOP_SLA_Mi8MTV3_UPK23","LOP_SLA_Mi8MT_Cargo"}
+        };
+    };
+    class dcg_main_sniperPoolEast {
+        typeName = "POOL";
+        value[] = {
+            {"ALL","LOP_SLA_Infantry_Marksman"}
+        };
+    };
+    class dcg_main_officerPoolEast {
+        typeName = "POOL";
+        value[] = {
+            {"ALL","LOP_SLA_Infantry_Officer"}
+        };
+    };
+    class dcg_main_artyPoolEast {
+        typeName = "POOL";
+        value[] = {
+            {"ALL","LOP_SLA_Static_D30"}
+        };
+    };
+    class dcg_main_unitPoolInd {
+        typeName = "POOL";
+        value[] = {};
+    };
+    class dcg_main_vehPoolInd {
+        typeName = "POOL";
+        value[] = {};
+    };
+    class dcg_main_airPoolInd {
+        typeName = "POOL";
+        value[] = {};
+    };
+    class dcg_main_sniperPoolInd {
+        typeName = "POOL";
+        value[] = {};
+    };
+    class dcg_main_officerPoolInd {
+        typeName = "POOL";
+        value[] = {};
+    };
+    class dcg_main_artyPoolInd {
+        typeName = "POOL";
+        value[] = {
+        };
+    };
+    class dcg_main_unitPoolWest {
+        typeName = "POOL";
+        value[] = {
+            {"ALL","rhsusf_army_ocp_medic","rhsusf_army_ocp_uav","rhsusf_army_ocp_marksman","rhsusf_army_ocp_machinegunnera","rhsusf_army_ocp_machinegunner","rhsusf_army_ocp_jfo","rhsusf_army_ocp_explosives","rhsusf_army_ocp_engineer","rhsusf_army_ocp_riflemanat","rhsusf_army_ocp_grenadier","rhsusf_army_ocp_autorifleman","rhsusf_army_ocp_rifleman","rhsusf_army_ocp_teamleader","rhsusf_army_ocp_squadleader"}
+        };
+    };
+    class dcg_main_vehPoolWest {
+        typeName = "POOL";
+        value[] = {
+            {"ALL","rhsusf_m998_d_4dr","rhsusf_m998_d_4dr_halftop","rhsusf_m1025_d_Mk19","rhsusf_m1025_d","rhsusf_m1025_d_m2","rhsusf_M1117_D","rhsusf_M1232_M2_usarmy_d"}
+        };
+    };
+    class dcg_main_airPoolWest {
+        typeName = "POOL";
+        value[] = {
+            {"ALL","RHS_MELB_AH6M_M","RHS_MELB_AH6M_H","RHS_MELB_AH6M_L","RHS_UH60M_d","RHS_CH_47F_light"}
+        };
+    };
+    class dcg_main_sniperPoolWest {
+        typeName = "POOL";
+        value[] = {
+            {"ALL","rhsusf_army_ocp_sniper_m24sws","rhsusf_army_ocp_sniper_m107","rhsusf_army_ocp_sniper"}
+        };
+    };
+    class dcg_main_officerPoolWest {
+        typeName = "POOL";
+        value[] = {
+            {"ALL","rhsusf_army_ocp_officer"}
+        };
+    };
+    class dcg_main_artyPoolWest {
+        typeName = "POOL";
+        value[] = {
+        };
+    };
+    class dcg_main_unitPoolCiv {
+        typeName = "POOL";
+        value[] = {
+            {"ALL","LOP_CHR_Civ_Rocker_04","LOP_CHR_Civ_Rocker_03","LOP_CHR_Civ_Worker_01","LOP_CHR_Civ_Worker_04","LOP_CHR_Civ_Worker_02","C_Man_casual_6_F","C_Man_casual_5_F","C_man_sport_2_F","C_man_1","C_Man_casual_2_F","C_man_polo_1_F"}
+        };
+    };
+    class dcg_main_vehPoolCiv {
+        typeName = "POOL";
+        value[] = {
+            {"ALL","C_Offroad_01_F","C_Van_01_transport_F","C_Van_01_box_F","UK3CB_Civ_LandRover_Hard_Blue_A","UK3CB_Civ_LandRover_Soft_Green_A","UK3CB_Civ_LandRover_Soft_Red_A","C_Offroad_02_unarmed_F_blue"}
+        };
+    };
+    class dcg_main_airPoolCiv {
+        typeName = "POOL";
+        value[] = {
+        };
+    };
+    class dcg_main_vipPoolCiv {
+        typeName = "POOL";
+        value[] = {
+            {"ALL","LOP_CHR_Civ_Functionary_02","LOP_CHR_Civ_Functionary_01"}
+        };
+    };
+    class dcg_radio_commNet01 {
+        typeName = "ARRAY";
+        value[] = {
+            "plt_pl",
+            "a_sl",
+            "b_sl"
+        };
+    };
+    class dcg_radio_commNet02 {
+        typeName = "ARRAY";
+        value[] = {
+            "plt_fo",
+            "r1_pilot",
+            "r1_copilot",
+            "r2_pilot",
+            "r2_copilot",
+            "rh1_co"
+        };
+    };
+    class dcg_radio_commNet03 {
+        typeName = "ARRAY";
+        value[] = {
+            "plt_pl",
+            "plt_sgt",
+            "plt_med",
+            "plt_fo"
+        };
+    };
+    class dcg_radio_commNet04 {
+        typeName = "ARRAY";
+        value[] = {
+            "a_sl",
+            "a_med",
+            "a1_ftl",
+            "a1_ar",
+            "a1_gr",
+            "a1_r",
+            "a2_ftl",
+            "a2_ar",
+            "a2_gr",
+            "a2_r"
+        };
+    };
+    class dcg_radio_commNet05 {
+        typeName = "ARRAY";
+        value[] = {
+            "b_sl",
+            "b_med",
+            "b1_ftl",
+            "b1_ar",
+            "b1_gr",
+            "b1_r",
+            "b2_ftl",
+            "b2_ar",
+            "b2_gr",
+            "b2_r"
+        };
+    };
+    class dcg_radio_commNet06 {
+        typeName = "ARRAY";
+        value[] = {
+            "rh1_co",
+            "rh1_driver",
+            "rh1_gunner"
+        };
+    };
+
+};
